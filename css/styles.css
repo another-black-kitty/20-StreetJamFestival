@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  max-width: 375px;
+  max-width: 385px;
   margin: auto;
   background: var(--dark);
   font-family: 'Rubik', sans-serif;
@@ -76,6 +76,10 @@ h2 {
   text-decoration: none;
   padding: 2px;
 }
+
+nav .cta {
+  padding: 4px;
+} 
 
 .planning {
   margin: 15px;
@@ -209,18 +213,18 @@ h3 {
 }
 
 .slider-nav a {
-	width: 8px;
-	height: 8px;
+	width: 5px;
+	height: 5px;
 	border-radius: 50%;
 	background-color: var(--dark);
-	opacity: 0.75;
+	opacity: 0.65;
 	transition: opacity ease 250ms;
 }
 
 .slider-nav a:hover {
 	opacity: 1;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
 }
 
 .cta-light {
