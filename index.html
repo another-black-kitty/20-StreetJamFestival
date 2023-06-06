@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css">
-    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Rubik:wght@500..900&display=swap" rel="stylesheet">
+    <title>Street Jam Festival</title>
   </head>
   <body>
     <header>
-      <h1>Street <br>Jam <br>Festival</h1>
       <video src="img/ppro-trailer.mp4" preload="auto" loop autoplay muted></video>
+      <h1>Street <br>Jam <br>Festival</h1>
       <nav class="light-background">
         <a href="#street-jam-festival">Street Jam Festival</a>
         <a href="#street-food">Street Food</a>
@@ -26,10 +29,11 @@
         </p>
         <p>
           Notre événement offre une variété d'activités pour les visiteurs, 
-          notamment des démonstrations de skate réalisées par des professionnels, 
-          des ateliers de graffiti interactifs, des expositions d'œuvres d'art 
-          urbain innovantes et des performances musicales d'artistes locaux et 
-          internationaux.
+          notamment des <a href="#skate" class="cta">démonstrations de skate</a> 
+          réalisées par des professionnels, des <a href="#graff" class="cta">
+          ateliers de graffiti</a> interactifs, des expositions d'œuvres d'art 
+          urbain innovantes et des <a href="#music" class="cta">performances 
+          musicales</a> d'artistes locaux et internationaux.
         </p>
         <img src="img/skater.webp" alt="Photo d'un skater">
         <p>
@@ -39,12 +43,12 @@
           ambiance urbaine unique.
         </p>
         <p>
-          Notre festival propose également une sélection de stands de restauration 
-          proposant une cuisine de rue authentique pour ravir les papilles des 
-          visiteurs.
+          Notre festival propose également une <a href="#street-food" 
+          class="cta">sélection de stands de restauration</a> proposant une 
+          cuisine de rue authentique pour ravir les papilles des visiteurs.
         </p>
       </div>
-      <h2>Tags <br> Graffiti <br> Street art</h2>
+      <h2 id="graff">Tags <br> Graffiti <br> Street art</h2>
       <div class="light-background planning">
         <p class="planning-title">
           Sessions libres
@@ -124,7 +128,7 @@
           </div>
         </div>
       </div>
-      <h2>Skate</h2>
+      <h2 id="skate">Skate</h2>
       <div class="light-background planning">
         <p class="planning-title">
           Inscriptions et accueil des participants 
@@ -218,7 +222,7 @@
         être sujets à des changements. Les participants seront informés des 
         horaires définitifs lors de leur inscription à l'événement.
       </p>
-      <h2>Musique</h2>
+      <h2 id="music">Musique</h2>
       <div class="light-background planning">
         <p class="planning-title">
           Atelier de musique urbaine pour les amateurs de beatmaking et de rap 
@@ -323,7 +327,7 @@
       <p>
         Street Jam Festival <br>Place du Marché 2 <br>1800 Vevey
       </p>
-      <a href="mailto:info@streetjamfestival.ch">
+      <a href="mailto:info@streetjamfestival.ch" class="cta">
         info@streetjamfestival.ch
       </a>
       <footer>

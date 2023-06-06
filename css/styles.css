@@ -15,6 +15,13 @@ img {
 
 video {
   width: 375px;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 .auto-slider {
