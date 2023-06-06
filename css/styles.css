@@ -253,3 +253,14 @@ h4 {
   color: var(--dark);
 }
 
+.gif {
+  margin: 0;
+}
+
+.reverse {
+  transform: scaleX(-1);
+}
+
+.black {
+  mix-blend-mode: difference;
+}
