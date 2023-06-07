@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  max-width: 385px;
+  max-width: 375px;
   margin: auto;
   background: var(--dark);
   font-family: 'Rubik', sans-serif;
@@ -27,6 +27,7 @@ h2,
 h3,
 h4 {
   font-family: 'Cherry Bomb One', cursive;
+  letter-spacing: 2px;
 }
 
 h1 {
