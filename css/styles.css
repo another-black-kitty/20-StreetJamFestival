@@ -17,9 +17,12 @@ img {
   max-width: 100%;
 }
 
+.video-container {
+  position: relative;
+}
+
 video {
   width: 375px;
-  position: relative;
 }
 
 h1 {
